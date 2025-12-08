@@ -22,8 +22,12 @@ const allura = Allura({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://tomi-design.vercel.app/'),
   title: "Tomi - Motion Designer",
   description: "Motion design portfolio showcasing creative video editing and animation work",
+    openGraph: {
+    images: ['/home-preview.png'],
+  },
 };
 
 export default function RootLayout({
