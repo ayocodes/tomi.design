@@ -22,10 +22,42 @@ interface Work {
   };
 }
 
-// Sample works data
+// works data
 const works: Work[] = [
   {
-    id: "1",
+    id: "7",
+    title: "Crystalrohr - Pitch Deck",
+    youtubeId: "mx1dCwpDK3A",
+    thumbnailUrl: "thumbnails/crystalrohr.png",
+    category: "Motion Design",
+    featured: true,
+    hasCaseStudy: true,
+    caseStudy: {
+      description:
+        "The challenge was to translate a complex 8-layer video infrastructure protocol into a clear, compelling narrative. I pivoted away from complex transitions to a clean, minimalist white aesthetic, allowing the data concepts to stand out without visual clutter. Once the direction was set, I executed the script, voiceover, and full animation in a single 24-hour sprint to meet a critical deadline.",
+      role: "Motion Designer",
+      tools: ["DaVinci Resolve", "Figma"],
+      year: "2025",
+    },
+  },
+  {
+    id: "6",
+    title: "ToothFairyAI",
+    youtubeId: "6D4lGFs-bks",
+    thumbnailUrl: "thumbnails/toothfairy.png",
+    category: "Motion Design",
+    featured: true,
+    hasCaseStudy: true,
+    caseStudy: {
+      description:
+        "This project was a study in visual interpretation. Collaborating with a copywriter who provided the script, my role was to translate their narrative into a visual language. The challenge was to ensure the motion design elevated the message without overpowering it, demonstrating my ability to execute a specific vision within a creative team.",
+      role: "Motion Designer",
+      tools: ["DaVinci Resolve", "Figma"], // Add other tools if used
+      year: "2025",
+    },
+  },
+  {
+    id: "5",
     title: "CodeXero",
     youtubeId: "FgS9KqyGbIs",
     thumbnailUrl: "/code/9.png",
@@ -41,7 +73,7 @@ const works: Work[] = [
     },
   },
   {
-    id: "2",
+    id: "4",
     title: "BoundlessPay",
     youtubeId: "4ge2oFFlBbU?si",
     thumbnailUrl: "thumbnails/boundless.png",
@@ -58,7 +90,7 @@ const works: Work[] = [
     hasCaseStudy: false,
   },
   {
-    id: "4",
+    id: "2",
     title: "IkonShop",
     youtubeId: "DJKeT6liLFc?si",
     thumbnailUrl: "thumbnails/ikon.png",
@@ -66,7 +98,7 @@ const works: Work[] = [
     hasCaseStudy: false,
   },
   {
-    id: "5",
+    id: "1",
     title: "AmpPay",
     youtubeId: "PK3Pg2Tawqg?si",
     thumbnailUrl: "thumbnails/amppay.png",

@@ -11,10 +11,10 @@ const footerLinks = [
 ];
 
 const socialLinks = [
-  { name: "X", href: "https://x.com/AyoOmotola1" },
-  { name: "YouTube", href: "https://youtube.com/@ayoomotola7886" },
-  { name: "Instagram", href: "https://instagram.com/its_omoty" },
-  { name: "LinkedIn", href: "https://linkedin.com/in/yourusername" },
+  { name: "X", href: "https://x.com/VisualsByTomi" },
+  { name: "YouTube", href: "https://www.youtube.com/channel/UCDXcDzES5fCNhV6tcqgs7tg" },
+  { name: "Instagram", href: "https://www.instagram.com/visualsbytomi/" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/tomi-omotola-39948239a/" },
 ];
 
 export default function Footer() {
