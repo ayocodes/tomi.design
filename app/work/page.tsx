@@ -25,6 +25,56 @@ interface Work {
 // works data
 const works: Work[] = [
   {
+    id: "10",
+    title: "Fast-Paced Video Portfolio Edit",
+    youtubeId: "BHPnx1aP-Dc",
+    thumbnailUrl: "https://img.youtube.com/vi/BHPnx1aP-Dc/maxresdefault.jpg",
+    category: "Motion Design",
+    featured: false,
+    hasCaseStudy: true,
+    caseStudy: {
+      description:
+        "This personal project was created as a self-directed challenge to improve my speed, precision, and creative decision-making in fast-paced video editing. The goal was to produce a high-energy video portfolio piece that showcases my editing style and communicates my value as a video editor to potential clients. It served both as a technical exercise and a personal branding tool.",
+      role: "Motion Designer",
+      tools: ["DaVinci Resolve"],
+      year: "2026",
+    },
+  },
+  {
+    id: "9",
+    title: "Brand Structure Explainer – Corporate Motion Design",
+    youtubeId: "YFwH5oOK_48",
+    thumbnailUrl: "https://img.youtube.com/vi/YFwH5oOK_48/maxresdefault.jpg",
+    category: "Motion Design",
+    featured: true,
+    hasCaseStudy: true,
+    caseStudy: {
+      description:
+        "This project was my first collaboration with a corporate client and focused on visually explaining the relationship between its parent brand and three subsidiary companies. I led the full creative process, from concept development and storyboard creation in Figma to final animation and sound design. The motion piece was designed to clearly communicate each subsidiary’s role while reinforcing the parent company’s identity through a cohesive visual system and licensed background music.",
+      role: "Motion Designer",
+      tools: ["DaVinci Resolve", "Figma"],
+      year: "2026",
+    },
+  },
+
+  {
+    id: "8",
+    title: "Talking Head Video Edit",
+    youtubeId: "iDz1N-y4aI4",
+    thumbnailUrl: "https://img.youtube.com/vi/iDz1N-y4aI4/maxresdefault.jpg",
+    category: "Video Editing",
+    featured: false,
+    hasCaseStudy: true,
+    caseStudy: {
+      description:
+        "This project focused on transforming a raw recorded talking-head video into a polished, engaging final product. I handled the full post-production process, including precise cutting, professional color grading, motion graphics, music selection, and subtitle design. The goal was to enhance clarity, visual appeal, and viewer retention while maintaining the speaker’s authenticity.",
+      role: "Video Editor",
+      tools: ["DaVinci Resolve"],
+      year: "2026",
+    },
+  },
+
+  {
     id: "7",
     title: "Crystalrohr - Pitch Deck",
     youtubeId: "mx1dCwpDK3A",
@@ -321,7 +371,7 @@ const WorkPage: React.FC = () => {
           className="max-w-7xl mx-auto"
         >
           <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-text-primary mb-4">
-            Selected Works
+            Works
           </h1>
           <p className="text-text-secondary text-lg md:text-xl max-w-2xl">
             A collection of video editing and motion design projects
@@ -341,11 +391,10 @@ const WorkPage: React.FC = () => {
             <button
               key={category}
               onClick={() => setActiveFilter(category)}
-              className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
-                activeFilter === category
-                  ? "bg-button-bg text-button-text"
-                  : "bg-transparent text-text-secondary border border-border hover:border-primary-accent hover:text-primary-accent"
-              }`}
+              className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${activeFilter === category
+                ? "bg-button-bg text-button-text"
+                : "bg-transparent text-text-secondary border border-border hover:border-primary-accent hover:text-primary-accent"
+                }`}
             >
               {category}
             </button>
