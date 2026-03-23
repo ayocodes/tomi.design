@@ -24,6 +24,42 @@ interface Work {
 
 // works data
 const works: Work[] = [
+    {
+    "id": "12",
+    "title": "Sub X - Refer to Earn",
+    "youtubeId": "iMLnqIUTo2o",
+    "thumbnailUrl": "https://img.youtube.com/vi/iMLnqIUTo2o/maxresdefault.jpg",
+    "category": "Motion Design",
+    "featured": true,
+    "hasCaseStudy": true,
+    "caseStudy": {
+      "description": "A vertical-format motion design campaign for SUBX, a real estate subsidiary of Focal Point. The video features a dark-themed 'Vertical Flow' with node-based graphics and a split-screen calculator animation to clearly explain the referral program's instant payout and commission mechanics. The script was specifically tailored for real estate investors, and the edit ensures the core offer stands out.",
+      "role": "Motion Designer",
+      "client": "SUBX",
+      "tools": [
+        "DaVinci Resolve"
+      ],
+      "year": "2026"
+    }
+  },
+  {
+    "id": "11",
+    "title": "Bayse Market",
+    "youtubeId": "HHSSSaS2C6Y",
+    "thumbnailUrl": "https://img.youtube.com/vi/HHSSSaS2C6Y/maxresdefault.jpg",
+    "category": "Motion Design",
+    "featured": true,
+    "hasCaseStudy": true,
+    "caseStudy": {
+      "description": "A 50-second, 8-scene motion design submission for the 'Future of Prediction Markets' video bounty. The narrative features a strong hook and a Tech/UI walkthrough of the platform on Solana, culminating in a rebrand transition from Gowagr to Bayse at the very end. This piece showcases high-effort motion graphics and scriptwriting collaboration.",
+      "role": "Motion Designer",
+      "client": "Bayse Markets",
+      "tools": [
+        "DaVinci Resolve"
+      ],
+      "year": "2026"
+    }
+  },
   {
     id: "10",
     title: "Fast-Paced Video Portfolio Edit",
